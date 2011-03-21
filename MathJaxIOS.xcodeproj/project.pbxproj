@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68F22EC1133775880024B36A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F22EC0133775880024B36A /* UIKit.framework */; };
+		68F22EC3133775880024B36A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F22EC2133775880024B36A /* Foundation.framework */; };
+		68F22EC5133775880024B36A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F22EC4133775880024B36A /* CoreGraphics.framework */; };
+		68F22ECB133775880024B36A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68F22EC9133775880024B36A /* InfoPlist.strings */; };
+		68F22ECE133775880024B36A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F22ECD133775880024B36A /* main.m */; };
+		68F22ED1133775880024B36A /* MathJaxIOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F22ED0133775880024B36A /* MathJaxIOSAppDelegate.m */; };
+		68F22ED4133775880024B36A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68F22ED2133775880024B36A /* MainWindow.xib */; };
+		68F22ED7133775880024B36A /* MathJaxIOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F22ED6133775880024B36A /* MathJaxIOSViewController.m */; };
+		68F22EDA133775880024B36A /* MathJaxIOSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68F22ED8133775880024B36A /* MathJaxIOSViewController.xib */; };
+		68F22EE1133775880024B36A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F22EC0133775880024B36A /* UIKit.framework */; };
+		68F22EE2133775880024B36A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F22EC2133775880024B36A /* Foundation.framework */; };
+		68F22EE3133775880024B36A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F22EC4133775880024B36A /* CoreGraphics.framework */; };
+		68F22EFD133782AC0024B36A /* MathJax in Resources */ = {isa = PBXBuildFile; fileRef = 68F22EFC133782AC0024B36A /* MathJax */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68F22EE4133775880024B36A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68F22EB3133775870024B36A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68F22EBB133775870024B36A;
+			remoteInfo = MathJaxIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68F22EBC133775880024B36A /* MathJaxIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathJaxIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68F22EC0133775880024B36A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		68F22EC2133775880024B36A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		68F22EC4133775880024B36A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		68F22EC8133775880024B36A /* MathJaxIOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MathJaxIOS-Info.plist"; sourceTree = "<group>"; };
+		68F22ECA133775880024B36A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68F22ECC133775880024B36A /* MathJaxIOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MathJaxIOS-Prefix.pch"; sourceTree = "<group>"; };
+		68F22ECD133775880024B36A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68F22ECF133775880024B36A /* MathJaxIOSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathJaxIOSAppDelegate.h; sourceTree = "<group>"; };
+		68F22ED0133775880024B36A /* MathJaxIOSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathJaxIOSAppDelegate.m; sourceTree = "<group>"; };
+		68F22ED3133775880024B36A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		68F22ED5133775880024B36A /* MathJaxIOSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathJaxIOSViewController.h; sourceTree = "<group>"; };
+		68F22ED6133775880024B36A /* MathJaxIOSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathJaxIOSViewController.m; sourceTree = "<group>"; };
+		68F22ED9133775880024B36A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MathJaxIOSViewController.xib; sourceTree = "<group>"; };
+		68F22EE0133775880024B36A /* MathJaxIOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathJaxIOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68F22EFC133782AC0024B36A /* MathJax */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MathJax; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68F22EB9133775870024B36A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F22EC1133775880024B36A /* UIKit.framework in Frameworks */,
+				68F22EC3133775880024B36A /* Foundation.framework in Frameworks */,
+				68F22EC5133775880024B36A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68F22EDC133775880024B36A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F22EE1133775880024B36A /* UIKit.framework in Frameworks */,
+				68F22EE2133775880024B36A /* Foundation.framework in Frameworks */,
+				68F22EE3133775880024B36A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68F22EB1133775870024B36A = {
+			isa = PBXGroup;
+			children = (
+				68F22EC6133775880024B36A /* MathJaxIOS */,
+				68F22EBF133775880024B36A /* Frameworks */,
+				68F22EBD133775880024B36A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68F22EBD133775880024B36A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68F22EBC133775880024B36A /* MathJaxIOS.app */,
+				68F22EE0133775880024B36A /* MathJaxIOSTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68F22EBF133775880024B36A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68F22EFC133782AC0024B36A /* MathJax */,
+				68F22EC0133775880024B36A /* UIKit.framework */,
+				68F22EC2133775880024B36A /* Foundation.framework */,
+				68F22EC4133775880024B36A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68F22EC6133775880024B36A /* MathJaxIOS */ = {
+			isa = PBXGroup;
+			children = (
+				68F22ECF133775880024B36A /* MathJaxIOSAppDelegate.h */,
+				68F22ED0133775880024B36A /* MathJaxIOSAppDelegate.m */,
+				68F22ED5133775880024B36A /* MathJaxIOSViewController.h */,
+				68F22ED6133775880024B36A /* MathJaxIOSViewController.m */,
+				68F22ED2133775880024B36A /* MainWindow.xib */,
+				68F22ED8133775880024B36A /* MathJaxIOSViewController.xib */,
+				68F22EC7133775880024B36A /* Supporting Files */,
+			);
+			path = MathJaxIOS;
+			sourceTree = "<group>";
+		};
+		68F22EC7133775880024B36A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68F22EC8133775880024B36A /* MathJaxIOS-Info.plist */,
+				68F22EC9133775880024B36A /* InfoPlist.strings */,
+				68F22ECC133775880024B36A /* MathJaxIOS-Prefix.pch */,
+				68F22ECD133775880024B36A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68F22EBB133775870024B36A /* MathJaxIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68F22EF3133775880024B36A /* Build configuration list for PBXNativeTarget "MathJaxIOS" */;
+			buildPhases = (
+				68F22EB8133775870024B36A /* Sources */,
+				68F22EB9133775870024B36A /* Frameworks */,
+				68F22EBA133775870024B36A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathJaxIOS;
+			productName = MathJaxIOS;
+			productReference = 68F22EBC133775880024B36A /* MathJaxIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68F22EDF133775880024B36A /* MathJaxIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68F22EF6133775880024B36A /* Build configuration list for PBXNativeTarget "MathJaxIOSTests" */;
+			buildPhases = (
+				68F22EDB133775880024B36A /* Sources */,
+				68F22EDC133775880024B36A /* Frameworks */,
+				68F22EDD133775880024B36A /* Resources */,
+				68F22EDE133775880024B36A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68F22EE5133775880024B36A /* PBXTargetDependency */,
+			);
+			name = MathJaxIOSTests;
+			productName = MathJaxIOSTests;
+			productReference = 68F22EE0133775880024B36A /* MathJaxIOSTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68F22EB3133775870024B36A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 68F22EB6133775870024B36A /* Build configuration list for PBXProject "MathJaxIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68F22EB1133775870024B36A;
+			productRefGroup = 68F22EBD133775880024B36A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68F22EBB133775870024B36A /* MathJaxIOS */,
+				68F22EDF133775880024B36A /* MathJaxIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68F22EBA133775870024B36A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F22ECB133775880024B36A /* InfoPlist.strings in Resources */,
+				68F22ED4133775880024B36A /* MainWindow.xib in Resources */,
+				68F22EDA133775880024B36A /* MathJaxIOSViewController.xib in Resources */,
+				68F22EFD133782AC0024B36A /* MathJax in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68F22EDD133775880024B36A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68F22EDE133775880024B36A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68F22EB8133775870024B36A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F22ECE133775880024B36A /* main.m in Sources */,
+				68F22ED1133775880024B36A /* MathJaxIOSAppDelegate.m in Sources */,
+				68F22ED7133775880024B36A /* MathJaxIOSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68F22EDB133775880024B36A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68F22EE5133775880024B36A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68F22EBB133775870024B36A /* MathJaxIOS */;
+			targetProxy = 68F22EE4133775880024B36A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68F22EC9133775880024B36A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68F22ECA133775880024B36A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		68F22ED2133775880024B36A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68F22ED3133775880024B36A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		68F22ED8133775880024B36A /* MathJaxIOSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68F22ED9133775880024B36A /* en */,
+			);
+			name = MathJaxIOSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68F22EF1133775880024B36A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68F22EF2133775880024B36A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		68F22EF4133775880024B36A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MathJaxIOS/MathJaxIOS-Prefix.pch";
+				INFOPLIST_FILE = "MathJaxIOS/MathJaxIOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		68F22EF5133775880024B36A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MathJaxIOS/MathJaxIOS-Prefix.pch";
+				INFOPLIST_FILE = "MathJaxIOS/MathJaxIOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		68F22EF7133775880024B36A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MathJaxIOS.app/MathJaxIOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MathJaxIOSTests/MathJaxIOSTests-Prefix.pch";
+				INFOPLIST_FILE = "MathJaxIOSTests/MathJaxIOSTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		68F22EF8133775880024B36A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MathJaxIOS.app/MathJaxIOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MathJaxIOSTests/MathJaxIOSTests-Prefix.pch";
+				INFOPLIST_FILE = "MathJaxIOSTests/MathJaxIOSTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68F22EB6133775870024B36A /* Build configuration list for PBXProject "MathJaxIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68F22EF1133775880024B36A /* Debug */,
+				68F22EF2133775880024B36A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68F22EF3133775880024B36A /* Build configuration list for PBXNativeTarget "MathJaxIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68F22EF4133775880024B36A /* Debug */,
+				68F22EF5133775880024B36A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68F22EF6133775880024B36A /* Build configuration list for PBXNativeTarget "MathJaxIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68F22EF7133775880024B36A /* Debug */,
+				68F22EF8133775880024B36A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68F22EB3133775870024B36A /* Project object */;
+}
