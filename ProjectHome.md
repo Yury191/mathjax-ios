@@ -1,0 +1,1 @@
+This project contains a simple working example of how to use MathJax in iOS applications.
